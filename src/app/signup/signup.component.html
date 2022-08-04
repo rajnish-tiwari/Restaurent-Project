@@ -1,0 +1,42 @@
+<div class="registration">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <img src="https://images.brandsupply.com/logo-laura-roman-54BKhXOa_245_170.png" alt="">
+                    <h2
+                        style="color:turquoise; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        Get Free Membership&nbsp;(ücretsiz üyelik al)</h2>
+                    <hr>
+                </div>
+                <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" formControlName="name" placeholder="adınızı giriniz" class="form-control"
+                            aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Mobile No</label>
+                        <input type="number" formControlName="mobile" placeholder="cep telefonunu gir"
+                            class="form-control" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email address</label>
+                        <input type="email" formControlName="email" placeholder="adresinizi girin" class="form-control"
+                            id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" formControlName="password" placeholder="şifrenizi girin"
+                            class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                </form>
+                <a routerLink="/login" style="color:black;">Already Membership ? Click To Login!!</a>
+            </div>
+        </div>
+    </div>
+</div>

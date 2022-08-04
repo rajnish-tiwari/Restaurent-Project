@@ -1,0 +1,37 @@
+<div class="link">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <img src="https://images.brandsupply.com/logo-laura-roman-54BKhXOa_245_170.png" alt="">
+                    <h1 style="font-family:cursive; color:rgb(119, 0, 0); font-size: 50px;">Login&nbsp;&nbsp;(Giriş
+                        yapmak)</h1>
+                    <hr>
+                </div>
+                <form [formGroup]="loginForm" (ngSubmit)="logIn()">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label" style="color:springgreen;">Email
+                            address</label>
+                        <input type="email" formControlName="email" placeholder="adresinizi girin"
+                            class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text" style="color:steelblue ;">We'll never share your email
+                            with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"
+                            style="color:springgreen ;">Password</label>
+                        <input type="password" formControlName="password"  placeholder="şifre girin" class="form-control"
+                            id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                    <br>
+                    <h1 style="color:rgb(245, 3, 3); font-size: 22px;">oturum açmanın başka yolları</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/?hl=en" style="color:hotpink;font-size:25px;"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.facebook.com/" style="color: darkblue; font-size: 25px;"><i class="fa-brands fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com/" style="color:rgb(5, 178, 246); font-size: 25px;"><i class="fa-brands fa-twitter"></i></a>
+                </form>
+                <a routerLink="/signup" style="color:yellow; margin-top: 10px;">New User? Click To Singup</a>
+            </div>
+        </div>
+    </div>
+</div>

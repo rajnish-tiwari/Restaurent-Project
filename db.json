@@ -1,0 +1,75 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "DERALIYE RESTAURANT ",
+      "email": "info@deraliyerestaurant.com",
+      "mobile": "+90 212 520 77 78",
+      "address": "Istanbul,Turkey",
+      "services": "Others"
+    },
+    {
+      "id": 2,
+      "name": "Queb Lounge",
+      "email": "info@queblounge.com",
+      "mobile": "+90 212 45808 80",
+      "address": "Cankurtaran Mah. No:29 Akbıyık Cad. The Byzantium Hotel Teras Kat, Sultahahmet",
+      "services": "all other services"
+    }
+  ],
+  "signup": [
+    {
+      "name": "rajnsih@123",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 1
+    },
+    {
+      "name": 9643707835,
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "name": "Rajnish Tiwari",
+      "email": "rt7320402@gmail.com",
+      "mobile": 9354041657,
+      "password": "rajnsih@123",
+      "id": 3
+    },
+    {
+      "name": "Rahul Tiwari",
+      "email": "Rahul@24gmail.com",
+      "mobile": 8447520956,
+      "password": "rahul.12",
+      "id": 4
+    },
+    {
+      "name": "ahmad asraf",
+      "email": "ahmadashrafdgp@gmail.com",
+      "mobile": 9895751523,
+      "password": "E$G@dmin2022",
+      "id": 5
+    },
+    {
+      "name": "Rajnish Tiwari",
+      "email": "rt",
+      "mobile": 7982633885,
+      "password": "E$G@dmin2022",
+      "id": 6
+    },
+    {
+      "name": "Rajnish Tiwari",
+      "email": "rt7320402@gmail.com",
+      "mobile": 7982633885,
+      "password": "Rajnish@123",
+      "id": 7
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
